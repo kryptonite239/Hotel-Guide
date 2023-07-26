@@ -1,38 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hotel Guide - Hotel Search and Booking Website
+
+Welcome to Hotel Guide, your go-to website for searching hotels based on location and check-in/check-out time. This platform allows users to find their ideal accommodations quickly and conveniently. Additionally, registered users can take advantage of the booking management feature to keep track of their reservations.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+4. [Usage](#usage)
+    - [Searching Hotels](#searching-hotels)
+    - [User Registration and Login](#user-registration-and-login)
+    - [Managing Bookings](#managing-bookings)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+## Introduction
+Hotel Guide is an intuitive website built using Next.js framework, designed to help users find and book hotels based on their preferred location and check-in/check-out dates. Whether you are planning a business trip or a leisurely vacation, Hotel Guide ensures a seamless hotel search experience with a user-friendly interface.
+
+## Features
+- **Hotel Search:** Easily search for hotels using the desired location and check-in/check-out dates.
+- **User Registration:** Users can create an account on the website, enabling them to access additional features.
+- **User Login:** Registered users can log in to their accounts to manage their bookings.
+- **Booking Management:** Once logged in, users can view, modify, or cancel their hotel bookings.
+- **User Dashboard:** A personalized dashboard displays the user's booking history and other relevant information.
+- **Responsive Design:** The website is responsive and works smoothly on various devices, including desktops, tablets, and smartphones.
 
 ## Getting Started
+Follow the instructions below to set up the Hotel Guide website on your local machine.
 
-First, run the development server:
+### Prerequisites
+- Node.js and npm (Node Package Manager) installed on your system.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Installation
+1. Clone the repository from GitHub: `git clone https://github.com/your-username/hotel-guide.git`
+2. Navigate to the project directory: `cd hotel-guide`
+3. Install the required dependencies by running: `npm install`
+4. Start the development server: `npm run dev`
+5. Open your web browser and visit: `http://localhost:3000` to access the website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
+Below are the main functionalities and how to use them on the Hotel Guide website:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Searching Hotels
+1. On the homepage, enter your desired location and select your check-in and check-out dates.
+2. Click the "Search Hotels" button to view a list of available hotels in the specified location for your selected dates.
+3. Browse through the hotel options, view details, and choose the one that suits your requirements.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### User Registration and Login
+1. To access the booking management feature, you need to create an account.
+2. Click on the "Sign Up" or "Register" button.
+3. Fill in the required details such as name, email, and password.
+4. After successful registration, you can log in using your credentials.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Managing Bookings
+1. Once logged in, you'll be redirected to your user dashboard.
+2. The dashboard displays your booking history, including upcoming and past reservations.
+3. To make changes or cancel a booking, click on the corresponding booking entry and follow the prompts.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
+We welcome contributions from the open-source community to enhance the features and functionality of Hotel Guide. If you find any issues or have suggestions for improvements, please submit them via GitHub pull requests.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+_Thank you for choosing Hotel Guide!_
