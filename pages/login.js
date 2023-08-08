@@ -2,7 +2,6 @@ import { useFormik } from "formik";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/router";
 export default function Login() {
-  const router = useRouter();
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -12,12 +11,11 @@ export default function Login() {
   });
   async function onSubmit(values) {
     await signIn("credentials", {
-      redirect: false,
+      redirect: true,
       email: values.email,
       password: values.password,
       callbackUrl: "/",
     });
-    router.push("/");
   }
   return (
     <form onSubmit={formik.handleSubmit}>
